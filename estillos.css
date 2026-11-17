@@ -1,0 +1,41 @@
+.tarjeta-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjeta-img article {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.tarjeta-img article h2 {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.tarjeta-img article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.tarjeta-img article p {
+    margin-top: 10px;
+}
+body { background-color: #87D7EA; font-size: 16px; }
+h1{
+display: flex;
+justify-content: center;
+color: #1379a1;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
